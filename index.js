@@ -1,18 +1,10 @@
-// *Виведи таблицю множення для всіх чисел від 2 до 9. Кожне число необхідно помножити на числа від 1 до 10.
-
-for (let i = 2; i <= 9; i++) {
-  for (let n = 1; n <= 10; n++) {
-    console.log(i * n);
-  }
-}
-
 //* Запитай у користувача його вік і визначи, ким він є: дитиною (0-11), підлітком (12-17), дорослим (18_59) або пенсіонером (60 ...), передбач можливість введення невірних даних.
 
 let age,
   success = false;
 do {
   age = +prompt("Скільки вам років?");
-  succces = age && typeof age === "number" && !isNaN(age) && age >= 0;
+  success = age && typeof age === "number" && !isNaN(age) && age >= 0;
   console.log(success);
 } while (!success);
 const people = {
@@ -96,4 +88,10 @@ let resultSum;
 
 console.log(`Сума зі знижкою: ${resultSum}`);
 
+// *Виведи таблицю множення для всіх чисел від 2 до 9. Кожне число необхідно помножити на числа від 1 до 10.
 
+for (let i = 2; i <= 9; i++) {
+  for (let n = 1; n <= 10; n++) {
+    console.log(i * n);
+  }
+}
