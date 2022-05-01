@@ -73,8 +73,8 @@ let calculationSum = (value1, value2, value3, value4, value5, value6, value7, va
   return value1 + value2 + value3 + value4 + value5 + value6 + value7 + value8 + value9 + value10 ;
 }
 
-let resultSum = calculationSum(1,2,3,4,5,6,7,8,9,0);
-console.log(resultSum);
+let resultSumCalc = calculationSum(1,2,3,4,5,6,7,8,9,0);
+console.log(resultSumCalc);
 
 // *Запитай у користувача суму покупки і виведи суму до оплати зі знижкою:
 //* від 200 до 300 - знижка буде 3%;
